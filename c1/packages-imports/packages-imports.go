@@ -33,6 +33,8 @@ import (
 /// package donde se crearon, de lo contrario no se pueden usar
 /// y tendras un codigo "not delcared bu package"
 
+// Todo package debe tener una funcion main para poder correrlo solo
+// Solo puede haber una sola funcion main por package
 func main() {
 	fmt.Println("My favorite number is", rand.Intn(10))
 	// Aqui llamo otra funcion de otro archivo sin importarlo

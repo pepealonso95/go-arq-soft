@@ -7,6 +7,8 @@ import (
 func main() {
 	fmt.Printf("Main Function")
 
+	Hey()
+
 	var employee = Employee{
 		Id:          1,
 		FirstName:   "First name",
