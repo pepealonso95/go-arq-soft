@@ -38,8 +38,10 @@ func main() {
 	v := Vertex{3, 4}
 	// Noten que go tambien infiere punteros para utilizar metodos
 	v.Scale(10)
-	fmt.Println(v.Abs())
+	fmt.Println(v.X)
+
+	// fmt.Println(v.Abs())
 	// Go NO infiere punteros al pasar parametros en funciones
 	Scale(&v, 10)
-	fmt.Println(v.Abs())
+	// fmt.Println(v.Abs())
 }

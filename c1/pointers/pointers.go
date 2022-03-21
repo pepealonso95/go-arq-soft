@@ -19,6 +19,7 @@ func main() {
 	fmt.Println(*p) // lee el valor de i
 	*p = 21         // setea un numero con el puntero
 	fmt.Println(i)  // lee el nuevo valor de i
+	fmt.Println(*p) // lee el valor de i
 
 	p = &j         // puntero de j
 	*p = *p / 37   // divide j a traves del puntero
