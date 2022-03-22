@@ -22,7 +22,7 @@ func (v Vertex) Abs() float64 {
 
 // Es casi como hacer esto solo que esto se llama
 // asi Absoulte(v) en lugar de v.Absolute()
-func (v Vertex) Absolute() float64 {
+func Absolute(v Vertex) float64 {
 	return math.Sqrt(v.X*v.X + v.Y*v.Y)
 }
 
